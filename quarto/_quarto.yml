@@ -1,0 +1,116 @@
+project:
+  type: website
+bibliography: "biblio.bib"
+
+date: last-modified 
+website:
+  site-url: "https://neelsmith.github.io/juliawork"
+  title: "neelsmith"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Blog"
+        file: posts.qmd        
+      - text: "Projects"
+        file: projects/index.qmd    
+      - text: "Digital infrastructure"
+        file: digschol/index.qmd     
+      - text: "Updates"
+        file: updates.qmd
+      - about.qmd
+    
+    right:
+      - icon: person-circle
+        menu:
+          - text: "About me"
+            href: https://neelsmith.github.io 
+          - text: "Projects"
+            href: https://neelsmith.github.io/juliawork/projects/
+          - text: "Digital infrastructure"
+            href: https://neelsmith.github.io/juliawork/digschol/
+        aria-label: Home
+
+  sidebar:
+    - title: "Digital infrastructure"
+      contents: 
+        - digschol/index.qmd
+        - text: "---"
+        - digschol/narrative/index.qmd
+        - text: "---"
+        - cite/index.qmd        
+        - digitexts/index.qmd
+        - walkthrough/index.qmd
+        - digschol/pkg_graph/index.qmd
+        - text: "---"
+        - hmt/index.qmd        
+        - semantic-editions/index.qmd             
+        - text: "---"
+        - utils/index.qmd             
+        
+
+
+
+    - title: "Orthography"
+      contents:
+        - digitexts/orthography/index.qmd
+        - text: "---"        
+        - digitexts/orthography/greek.qmd
+        - digitexts/orthography/latin.qmd
+        - digitexts/orthography/hebrew.qmd
+        - digitexts/orthography/lycian.qmd         
+
+    - title: "Morphological parsing"
+      contents:
+        - digitexts/parsing/index.qmd
+        - text: "---"        
+        - digitexts/parsing/kanones.qmd
+        - digitexts/parsing/tabulae.qmd        
+
+    - title: "Citable editions"
+      contents:
+        - digitexts/editions/index.qmd
+        - text: "---"        
+        - digitexts/editions/markupreaders.qmd
+        - digitexts/editions/editionbuilders.qmd
+        - digitexts/editions/citablecorpora.qmd
+
+    - title: "Physical texts"
+      contents:
+        - digitexts/physical/index.qmd
+        - text: "---"   
+        - digitexts/physical/dse.qmd
+        - digitexts/physical/images.qmd
+
+
+
+    - title: "Citation with URNs"
+      contents:
+        - cite/urns/index.qmd
+        - text: "---"          
+        - cite/urns/cts/index.qmd
+        - cite/urns/cite2/index.qmd   
+        - cite/urns/images/index.qmd                   
+
+
+    - title: "Personal"
+      contents:
+        - personal/index.qmd
+        - text: "---"
+        - personal/white.qmd
+        - personal/juliagen.qmd
+        
+    - title: "Narrative thread"
+      contents:
+      - cite/urns/
+
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    toc: true
+
+
+
