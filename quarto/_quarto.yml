@@ -5,7 +5,7 @@ bibliography: "biblio.bib"
 date: last-modified 
 website:
   site-url: "https://neelsmith.github.io/juliawork"
-  title: "neelsmith"
+  title: "Work in Julia (2020-2024)"
   navbar:
     background: primary
     search: true

@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>neelsmith</title>
+<title>Work in Julia (2020-2024)</title>
 <link>https://neelsmith.github.io/juliawork/posts.html</link>
 <atom:link href="https://neelsmith.github.io/juliawork/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.9.33</generator>
 <lastBuildDate>Sat, 11 Jan 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>The Venetus A in a IIIF manifest</title>
@@ -47,17 +47,6 @@ background-color: null;
 font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">hmt_codices</span>(currentrelease)</span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<div class="ansi-escaped-output">
-<pre><span class="ansi-green-fg ansi-bold">Precompiling</span> packages...
-   1227.6 ms<span class="ansi-green-fg">  ✓ </span>QuartoNotebookWorkerJSONExt<span class="ansi-bright-black-fg"> (serial)</span>
-  1 dependency successfully precompiled in 1 seconds
-<span class="ansi-green-fg ansi-bold">Precompiling</span> packages...
-    670.7 ms<span class="ansi-green-fg">  ✓ </span>QuartoNotebookWorkerTablesExt<span class="ansi-bright-black-fg"> (serial)</span>
-  1 dependency successfully precompiled in 1 seconds
-</pre>
-</div>
-</div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>7-element Vector{CitablePhysicalText.Codex}:
  Burney 86 manuscript
