@@ -4,9 +4,7 @@ title: "Neel Smith: work in Julia, 2020-2024"
 
 
 
-I'm an emeritus professor at the College of the Holy Cross.  
-
-Between 2020 and 2024, I worked almost exclusively in Julia, and began gathering some of my digital scholarly work on a `quarto.pub` web site. `quarto.pub` is sunsetting, and I'm reverting to using github pages for my personal web site. On dumped here the documentation of my Julia work as I left it in 2024.
+I'm an emeritus professor at the College of the Holy Cross.  Between 2020 and 2024, I worked almost exclusively in Julia, and began gathering some of my digital scholarly work on a `quarto.pub` web site. `quarto.pub` is sunsetting, and I'm reverting to using github pages for my personal web site. On line here is a dump of the documentation of my Julia work as I left it in 2024.
 
 Since I became emeritus in 2024, most of the projects I've worked on focus on using language models. Sadly, this has required me to work in Python. You can follow my current work at [https://neelsmith.github.io](https://neelsmith.github.io).
 
