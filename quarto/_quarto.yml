@@ -14,7 +14,7 @@ website:
         text: Home
       - text: "Blog"
         file: posts.qmd        
-      - text: "Projects"
+      - text: "Julia projects"
         file: projects/index.qmd    
       - text: "Digital infrastructure"
         file: digschol/index.qmd     
@@ -108,7 +108,7 @@ website:
 
 format:
   html:
-    theme: spacelab
+    theme: united
     css: styles.css
     toc: true
 
